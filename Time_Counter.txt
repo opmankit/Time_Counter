@@ -1,0 +1,7 @@
+import time
+print('#####This Is A Time Counter#####')
+countdown = int(input('Enter The Time: '))
+for i in range(countdown, 0, -1):
+    print(i)
+    time.sleep(1)
+print('Time Is Up')
